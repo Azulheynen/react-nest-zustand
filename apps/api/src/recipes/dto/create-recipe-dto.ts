@@ -3,6 +3,7 @@ export class CreateRecipeDTO {
   ingredients: string;
   imageURL: string;
   category: string;
+  instructions: string;
   createdAt: Date;
   id: number;
 }

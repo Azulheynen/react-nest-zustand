@@ -17,6 +17,8 @@ export class Recipe {
   name: string;
   @Column()
   ingredients: string;
+  @Column()
+  instructions: string;
   @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP' })
   createdAt: Date;
   @Column({ nullable: true })
