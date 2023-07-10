@@ -28,7 +28,7 @@ const toggleFavorite = () => {
     <div>
       <h1>{recipe.name}</h1>
       <h2>{recipe.category}</h2>
-      <button onClick={toggleFavorite}>{isFavorite ? "Unmark" : "FAVORITE"}</button>
+      <button onClick={toggleFavorite}>{isFavorite ? "Unmark" : "Mark"}</button>
     </div>
   );
 }
